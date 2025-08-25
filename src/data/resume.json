@@ -1,0 +1,290 @@
+{
+  "nav": {
+    "en": {
+      "about": "About",
+      "experience": "Experience",
+      "education": "Education",
+      "technologies": "Technologies",
+      "languages": "Languages"
+    },
+    "de": {
+      "about": "Über mich",
+      "experience": "Berufserfahrung",
+      "education": "Ausbildung",
+      "technologies": "Technologien",
+      "languages": "Sprachen"
+    }
+  },
+  "profile": {
+    "en": {
+      "firstName": "Toni",
+      "lastName": "Rau",
+      "position": "Frontend-focused Full-Stack Developer",
+      "contacts": [
+        {
+          "type": "email",
+          "label": "Email",
+          "value": "antonii.saab@gmail.com",
+          "link": "mailto:antonii.saab@gmail.com"
+        },
+        {
+          "type": "github",
+          "label": "GitHub",
+          "value": "Toni-Saab",
+          "link": "https://github.com/Toni-Saab"
+        },
+        {
+          "type": "telegram",
+          "label": "Telegram",
+          "value": "@romeo_elite",
+          "link": "https://t.me/romeo_elite"
+        },
+        {
+          "type": "linkedin",
+          "label": "LinkedIn",
+          "value": "/",
+          "link": "/"
+        },
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "value": "/",
+          "link": "/"
+        }
+      ]
+    },
+    "de": {
+      "firstName": "Toni",
+      "lastName": "Rau",
+      "position": "Frontend-orientierter Full-Stack Entwickler",
+      "contacts": [
+        {
+          "type": "email",
+          "label": "Email",
+          "value": "antonii.saab@gmail.com",
+          "link": "mailto:antonii.saab@gmail.com"
+        },
+        {
+          "type": "github",
+          "label": "GitHub",
+          "value": "Toni-Saab",
+          "link": "https://github.com/Toni-Saab"
+        },
+        {
+          "type": "telegram",
+          "label": "Telegram",
+          "value": "@romeo_elite",
+          "link": "https://t.me/romeo_elite"
+        },
+        {
+          "type": "linkedin",
+          "label": "LinkedIn",
+          "value": "/",
+          "link": "/"
+        },
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "value": "/",
+          "link": "/"
+        }
+      ]
+    }
+  },
+  "about": {
+    "en": {
+      "title": "About Me",
+      "description": [
+        "Full-Stack Developer (Frontend-focused). I build fast and responsive interfaces with React/JS/TS.",
+        "My specialty is gamification and engaging UX. I apply principles from iGaming and betting to create interfaces that boost conversion and retention.",
+        "Backend development with Node.js/Express, working with SQL and MongoDB.",
+        "MVP from scratch? No problem!"
+      ]
+    },
+    "de": {
+      "title": "Über mich",
+      "description": [
+        "Full-Stack-Entwickler (Frontend-orientiert). Ich entwickle schnelle und responsive Interfaces mit React/JS/TS.",
+        "Mein Schwerpunkt liegt auf Gamification und einem fesselnden UX. Ich übernehme Prinzipien aus iGaming und Wetten, um Interfaces zu schaffen, die Conversion und Retention steigern.",
+        "Backend-Entwicklung mit Node.js/Express, Arbeit mit SQL und MongoDB.",
+        "MVP von Grund auf? Kein Problem!"
+      ]
+    }
+  },
+  "experience": {
+    "en": {
+      "title": "Experience",
+      "items": [
+        {
+          "id": "exp1",
+          "period": "2018–2022",
+          "position": "IT Course Developer",
+          "description": [
+            "Designed educational programs in programming, logic, and robotics.",
+            "Each topic was transformed into a mini-project with practical results.",
+            "Created interactive tasks for students (12–18) to immediately test and experiment with code and algorithms."
+          ]
+        }
+      ]
+    },
+    "de": {
+      "title": "Berufserfahrung",
+      "items": [
+        {
+          "id": "exp1",
+          "period": "2018–2022",
+          "position": "Entwickler von IT-Kursen",
+          "description": [
+            "Entwarf Lehrprogramme in Programmierung, Logik und Robotik.",
+            "Jedes Thema wurde zu einem Mini-Projekt mit praktischem Ergebnis.",
+            "Entwickelte interaktive Aufgaben für Schüler (12–18 Jahre), um sofort zu sehen, wie Code funktioniert und mit Algorithmen zu experimentieren."
+          ]
+        }
+      ]
+    }
+  },
+  "education": {
+    "en": {
+      "title": "Education",
+      "items": [
+        {
+          "id": "edu1",
+          "period": "2016–2020",
+          "institution": "Taras Shevchenko National University of Kyiv",
+          "degree": "Bachelor of Mathematics",
+          "country": "Ukraine"
+        },
+        {
+          "id": "edu2",
+          "period": "2024–2025",
+          "institution": "Weiterbildung IT/Web Development",
+          "country": "Germany"
+        }
+      ]
+    },
+    "de": {
+      "title": "Ausbildung",
+      "items": [
+        {
+          "id": "edu1",
+          "period": "2016–2020",
+          "institution": "Taras-Schewtschenko-Universität Kiew",
+          "degree": "Bachelor Mathematik",
+          "country": "Ukraine"
+        },
+        {
+          "id": "edu2",
+          "period": "2024–2025",
+          "institution": "Weiterbildung IT/Webentwicklung",
+          "country": "Deutschland"
+        }
+      ]
+    }
+  },
+  "technologies": {
+    "en": {
+      "title": "Technologies",
+      "viewAllButtonText": "View all",
+      "modalTitle": "All Technologies",
+      "categories": [
+        {
+          "id": "core",
+          "title": "Core",
+          "items": [
+            { "name": "HTML5" },
+            { "name": "CSS3" },
+            { "name": "JS/TS (ES6+)" },
+            { "name": "React" },
+            { "name": "Redux Toolkit" },
+            { "name": "REST API" },
+            { "name": "Responsive Design" }
+          ]
+        },
+        {
+          "id": "backend",
+          "title": "Backend",
+          "items": [
+            { "name": "Node.js" },
+            { "name": "Express" },
+            { "name": "MongoDB" },
+            { "name": "MySQL" },
+            { "name": "SQLite" },
+            { "name": "Sequelize" },
+            { "name": "Mongoose" }
+          ]
+        },
+        {
+          "id": "tools",
+          "title": "Tools",
+          "items": [
+            { "name": "Git/GitHub" },
+            { "name": "Docker" },
+            { "name": "Postman" }
+          ]
+        }
+      ]
+    },
+    "de": {
+      "title": "Technologien",
+      "viewAllButtonText": "Alle anzeigen",
+      "modalTitle": "Alle Technologien",
+      "categories": [
+        {
+          "id": "core",
+          "title": "Core",
+          "items": [
+            { "name": "HTML5" },
+            { "name": "CSS3" },
+            { "name": "JS/TS (ES6+)" },
+            { "name": "React" },
+            { "name": "Redux Toolkit" },
+            { "name": "REST API" },
+            { "name": "Responsive Design" }
+          ]
+        },
+        {
+          "id": "backend",
+          "title": "Backend",
+          "items": [
+            { "name": "Node.js" },
+            { "name": "Express" },
+            { "name": "MongoDB" },
+            { "name": "MySQL" },
+            { "name": "SQLite" },
+            { "name": "Sequelize" },
+            { "name": "Mongoose" }
+          ]
+        },
+        {
+          "id": "tools",
+          "title": "Tools",
+          "items": [
+            { "name": "Git/GitHub" },
+            { "name": "Docker" },
+            { "name": "Postman" }
+          ]
+        }
+      ]
+    }
+  },
+  "languages": {
+    "en": {
+      "title": "Languages",
+      "items": [
+        { "name": "German", "level": "B1 (IT vocabulary)" },
+        { "name": "English", "level": "Basic knowledge" },
+        { "name": "Ukrainian", "level": "Native" },
+        { "name": "Russian", "level": "Fluent" }
+      ]
+    },
+    "de": {
+      "title": "Sprachen",
+      "items": [
+        { "name": "Deutsch", "level": "B1 (IT-Vokabular)" },
+        { "name": "Englisch", "level": "Grundkenntnisse" },
+        { "name": "Ukrainisch", "level": "Muttersprache" },
+        { "name": "Russisch", "level": "fließend" }
+      ]
+    }
+  }
+}

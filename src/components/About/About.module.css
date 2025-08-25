@@ -1,0 +1,26 @@
+.aboutSection {
+    padding: 5rem 2rem;
+    background: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    text-align: center;
+}
+
+.aboutTitle {
+    font-family: 'RussoOne', sans-serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 2rem;
+    color: var(--color-accent-yellow);
+}
+
+.aboutTextContainer {
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aboutText {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}

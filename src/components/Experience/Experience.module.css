@@ -1,0 +1,70 @@
+.experienceSection {
+  padding: 5rem 2rem;
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  text-align: center;
+}
+
+.experienceTitle {
+  font-family: 'RussoOne', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: var(--color-accent-red-bright);
+}
+
+.experienceContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.experienceCard {
+  background: var(--color-bg-secondary);
+  padding: 2rem;
+  border: 0.125rem solid var(--color-accent-yellow);
+  box-shadow: 0 0 0 0.125rem var(--color-accent-red-bright), 0 0 1rem rgba(255, 213, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experienceCard:hover {
+  transform: translateY(-0.3125rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3), 0 0 0 0.125rem var(--color-accent-red-bright), 0 0 1.5rem rgba(255, 213, 0, 0.4);
+}
+
+.experiencePeriod {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.experiencePosition {
+  font-family: 'RussoOne', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-text-primary);
+}
+
+.experienceDescription {
+  padding-left: 1.5rem;
+}
+
+.experienceDescription li {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.experienceDescription li::before {
+  content: '»';
+  color: var(--color-accent-yellow);
+  position: absolute;
+  left: -1.5rem;
+  top: 0;
+}

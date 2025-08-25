@@ -1,0 +1,94 @@
+.footer {
+  background: var(--color-bg-tertiary);
+  color: var(--color-text-secondary);
+  padding: 5rem 2rem;
+  position: relative;
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footerContacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 80rem;
+}
+
+.contactLink {
+  position: relative;
+  color: var(--color-text-primary);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  text-align: center;
+}
+
+.contactLink::before,
+.contactLink::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transition: transform 0.3s ease;
+}
+
+.contactLink::before {
+  border-bottom: 0.125rem solid var(--color-accent-yellow);
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.contactLink::after {
+  border-bottom: 0.125rem solid var(--color-accent-blue);
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.contactLink:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.contactLink:hover::after {
+  transform: scaleX(1);
+  transform-origin: right;
+  animation: glitch-line 0.5s linear infinite;
+}
+
+.contactLabel {
+  display: block;
+  font-family: 'RussoOne', sans-serif;
+  font-size: 1.1rem;
+  color: var(--color-text-primary);
+  margin-bottom: 0.2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.contactValue {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes glitch-line {
+  0% { transform: scaleX(1) translateX(0); }
+  50% { transform: scaleX(1) translateX(-20%); }
+  100% { transform: scaleX(1) translateX(0); }
+}

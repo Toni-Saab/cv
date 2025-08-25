@@ -1,0 +1,98 @@
+.educationSection {
+  padding: 5rem 2rem;
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  text-align: center;
+}
+
+.educationTitle {
+  font-family: 'RussoOne', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: var(--color-accent-blue);
+  letter-spacing: 0.1rem;
+}
+
+.educationContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.educationCard {
+  background: var(--color-bg-secondary);
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+  border: 0.125rem solid var(--color-accent-yellow);
+  transform: rotateZ(-1deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.educationCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 213, 0, 0.4),
+    transparent
+  );
+  transition: transform 0.5s ease-in-out;
+  pointer-events: none;
+}
+
+.educationCard:hover {
+  transform: translateY(-0.3125rem) rotateZ(0deg) scale(1.02);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3), 0 0 1rem var(--color-accent-red-bright);
+}
+
+.educationCard:hover::before {
+  transform: translateX(200%);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.educationInstitution {
+  font-family: 'RussoOne', sans-serif;
+  font-size: 1.5rem;
+  color: var(--color-text-primary);
+}
+
+.educationPeriod {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.educationDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.educationDegree,
+.educationCountry {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
