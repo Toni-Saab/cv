@@ -157,7 +157,8 @@
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
+  width: 6rem;
 }
 
 .dropdownToggle:hover {
@@ -166,7 +167,9 @@
 }
 
 .globeIcon {
-  font-size: 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline-block;
   color: var(--color-accent-yellow);
 }
 
@@ -253,4 +256,50 @@
   left: calc(100% - 1.65rem);
   background: var(--color-text-primary);
   color: var(--color-bg-primary);
+}
+
+
+@media (max-width: 768px) {
+.header {
+  padding: 1rem 0;
+  align-items: flex-start;
+}
+
+.logo {
+  padding-left: 2rem;
+  order: 1;
+}
+
+.logoIcon {
+  font-size: 2rem;
+}
+
+.navContainer {
+  order: 2;
+}
+
+.stalkerNavLink {
+  font-size: 1.5rem;
+}
+
+.socials {
+  order: 4;
+  flex-direction: column;
+  gap: 1rem;
+  padding-right: 0.3rem;
+  padding-left: 0.5rem;
+}
+
+.socialIcon {
+  font-size: 2rem;
+}
+
+.controls {
+  order: 3;
+  gap: 1rem;
+}
+
+.dropdownToggle {
+  height: 2.2rem;
+}
 }

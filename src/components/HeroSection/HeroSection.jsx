@@ -5,8 +5,8 @@ import { useTheme } from '../../context/ThemeContext';
 import styles from './HeroSection.module.css';
 import data from '../../data/resume.json';
 
-import heroBgLight from '../../assets/images/hero-bg2.jpg';
-import heroBgDark from '../../assets/images/hero-bg.jpg';
+import heroBgLight from '../../assets/images/hero-bg2.png';
+import heroBgDark from '../../assets/images/hero-bg.png';
 
 function HeroSection() {
   const { lang } = useLanguage();
@@ -59,7 +59,10 @@ function HeroSection() {
   const heroBgImage = theme === 'dark' ? heroBgDark : heroBgLight;
 
   return (
-    <section className={styles.heroSection}>
+    <section 
+      className={styles.heroSection}
+      style={{ backgroundColor: theme === 'light' ? '#FCFCFC' : 'var(--color-dark-bg)' }}
+      >
       <motion.div
         className={styles.bgImage}
         style={{
