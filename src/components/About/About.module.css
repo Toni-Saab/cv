@@ -7,7 +7,7 @@
 
 .aboutTitle {
     font-family: 'RussoOne', sans-serif;
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: 3rem;
     margin-bottom: 2rem;
     color: var(--color-accent-yellow);
 }
@@ -20,7 +20,11 @@
 
 .aboutText {
     font-family: 'Inter', sans-serif;
-    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    font-size: 1.5rem;
     line-height: 1.8;
     margin-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+
+};
