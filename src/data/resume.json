@@ -18,7 +18,7 @@
   "profile": {
     "en": {
       "firstName": "Toni",
-      "lastName": "Rau",
+      "lastName": "Illiashenko",
       "position": "Frontend-focused Full-Stack Developer",
       "contacts": [
         {
@@ -42,8 +42,8 @@
         {
           "type": "linkedin",
           "label": "LinkedIn",
-          "value": "/",
-          "link": "/"
+          "value": "antonii-illiashenko",
+          "link": "https://www.linkedin.com/in/antonii-illiashenko/"
         },
         {
           "type": "whatsapp",
@@ -55,7 +55,7 @@
     },
     "de": {
       "firstName": "Toni",
-      "lastName": "Rau",
+      "lastName": "Illiashenko",
       "position": "Frontend-orientierter Full-Stack Entwickler",
       "contacts": [
         {
@@ -79,8 +79,8 @@
         {
           "type": "linkedin",
           "label": "LinkedIn",
-          "value": "/",
-          "link": "/"
+          "value": "antonii-illiashenko",
+          "link": "https://www.linkedin.com/in/antonii-illiashenko/"
         },
         {
           "type": "whatsapp",
@@ -195,7 +195,6 @@
             { "name": "CSS3" },
             { "name": "JS/TS (ES6+)" },
             { "name": "React" },
-            { "name": "Redux Toolkit" },
             { "name": "REST API" },
             { "name": "Responsive Design" }
           ]
@@ -208,18 +207,14 @@
             { "name": "Express" },
             { "name": "MongoDB" },
             { "name": "MySQL" },
-            { "name": "SQLite" },
-            { "name": "Sequelize" },
-            { "name": "Mongoose" }
+            { "name": "SQLite" }
           ]
         },
         {
           "id": "tools",
           "title": "Tools",
           "items": [
-            { "name": "Git/GitHub" },
-            { "name": "Docker" },
-            { "name": "Postman" }
+            { "name": "Git/GitHub" }
           ]
         }
       ]
@@ -237,7 +232,6 @@
             { "name": "CSS3" },
             { "name": "JS/TS (ES6+)" },
             { "name": "React" },
-            { "name": "Redux Toolkit" },
             { "name": "REST API" },
             { "name": "Responsive Design" }
           ]
@@ -250,18 +244,14 @@
             { "name": "Express" },
             { "name": "MongoDB" },
             { "name": "MySQL" },
-            { "name": "SQLite" },
-            { "name": "Sequelize" },
-            { "name": "Mongoose" }
+            { "name": "SQLite" }
           ]
         },
         {
           "id": "tools",
           "title": "Tools",
           "items": [
-            { "name": "Git/GitHub" },
-            { "name": "Docker" },
-            { "name": "Postman" }
+            { "name": "Git/GitHub" }
           ]
         }
       ]
@@ -271,7 +261,7 @@
     "en": {
       "title": "Languages",
       "items": [
-        { "name": "German", "level": "B1 (IT vocabulary)" },
+        { "name": "German", "level": "B1" },
         { "name": "English", "level": "Basic knowledge" },
         { "name": "Ukrainian", "level": "Native" },
         { "name": "Russian", "level": "Fluent" }
@@ -280,7 +270,7 @@
     "de": {
       "title": "Sprachen",
       "items": [
-        { "name": "Deutsch", "level": "B1 (IT-Vokabular)" },
+        { "name": "Deutsch", "level": "B1" },
         { "name": "Englisch", "level": "Grundkenntnisse" },
         { "name": "Ukrainisch", "level": "Muttersprache" },
         { "name": "Russisch", "level": "fließend" }

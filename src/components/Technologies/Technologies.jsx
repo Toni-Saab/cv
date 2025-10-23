@@ -4,21 +4,21 @@ import styles from './Technologies.module.css';
 import data from '../../data/resume.json';
 import { FaTimes } from 'react-icons/fa';
 
-import DockerIcon from '../../assets/images/docker.svg';
+//import DockerIcon from '../../assets/images/docker.svg';
 import ExpressIcon from '../../assets/images/express.svg';
 import GithubIcon from '../../assets/images/github.svg';
 import HtmlIcon from '../../assets/images/html.svg';
 import MongodbIcon from '../../assets/images/mongodb.svg';
-import MongooseIcon from '../../assets/images/mongoose.svg';
+//import MongooseIcon from '../../assets/images/mongoose.svg';
 import MysqlIcon from '../../assets/images/mysql.svg';
 import NodeIcon from '../../assets/images/node-js.svg';
-import PostmanIcon from '../../assets/images/postman.svg';
+//import PostmanIcon from '../../assets/images/postman.svg';
 import ReactIcon from '../../assets/images/react.svg';
-import ReduxIcon from '../../assets/images/redux.svg';
+//import ReduxIcon from '../../assets/images/redux.svg';
 import ResponsiveIcon from '../../assets/images/responsive.svg';
 import RestApiIcon from '../../assets/images/rest.svg';
 import SassIcon from '../../assets/images/sass.svg';
-import SequelizeIcon from '../../assets/images/sequelize.svg';
+//import SequelizeIcon from '../../assets/images/sequelize.svg';
 import SqliteIcon from '../../assets/images/sqlite.svg';
 import TypescriptIcon from '../../assets/images/typescript.svg';
 import EyeIcon from '../../assets/images/eye.svg';
@@ -28,16 +28,16 @@ const icons = {
   'CSS3': SassIcon,
   'JS/TS (ES6+)': TypescriptIcon,
   'React': ReactIcon,
-  'Redux Toolkit': ReduxIcon,
+  //'Redux Toolkit': ReduxIcon,
   'Node.js': NodeIcon,
   'Express': ExpressIcon,
   'MongoDB': MongodbIcon,
-  'Mongoose': MongooseIcon,
+  //'Mongoose': MongooseIcon,
   'MySQL': MysqlIcon,
-  'Sequelize': SequelizeIcon,
+  //'Sequelize': SequelizeIcon,
   'Git/GitHub': GithubIcon,
-  'Docker': DockerIcon,
-  'Postman': PostmanIcon,
+  //'Docker': DockerIcon,
+  //'Postman': PostmanIcon,
   'SASS': SassIcon,
   'REST API': RestApiIcon,
   'Responsive Design': ResponsiveIcon,
