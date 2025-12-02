@@ -152,13 +152,15 @@
           "period": "2016–2020",
           "institution": "Taras Shevchenko National University of Kyiv",
           "degree": "Bachelor of Mathematics",
-          "country": "Ukraine"
+          "country": "Ukraine",
+          "diplomaTitle": "Click to open diploma (PDF)"
         },
         {
           "id": "edu2",
           "period": "2024–2025",
           "institution": "Weiterbildung IT/Web Development",
-          "country": "Germany"
+          "country": "Germany",
+          "diplomaTitle": "Click to open certificate (PDF)"
         }
       ]
     },
@@ -170,13 +172,15 @@
           "period": "2016–2020",
           "institution": "Taras-Schewtschenko-Universität Kiew",
           "degree": "Bachelor Mathematik",
-          "country": "Ukraine"
+          "country": "Ukraine",
+          "diplomaTitle": "Zum Öffnen des Diploms (PDF) klicken"
         },
         {
           "id": "edu2",
           "period": "2024–2025",
           "institution": "Weiterbildung IT/Webentwicklung",
-          "country": "Deutschland"
+          "country": "Deutschland",
+          "diplomaTitle": "Zum Öffnen des Zertifikats (PDF) klicken"
         }
       ]
     }

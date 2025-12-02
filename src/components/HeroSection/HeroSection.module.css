@@ -50,5 +50,10 @@
 @media (max-width: 768px) {
 .jobTitle {
   white-space: normal;
-}
+  }
+
+.name {
+      white-space: normal;
+      font-size: 4rem;
+  }
 }
