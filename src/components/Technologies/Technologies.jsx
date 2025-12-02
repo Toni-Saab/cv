@@ -5,11 +5,15 @@ import data from '../../data/resume.json';
 import { FaTimes } from 'react-icons/fa';
 
 //import DockerIcon from '../../assets/images/docker.svg';
+import NxIcon from '../../assets/images/nx.png';
+import NextJsIcon from '../../assets/images/nextjs.png';
+import ZustandIcon from '../../assets/images/zustand.svg';
+import SupabaseIcon from '../../assets/images/supabase.png';
 import ExpressIcon from '../../assets/images/express.svg';
 import GithubIcon from '../../assets/images/github.svg';
 import HtmlIcon from '../../assets/images/html.svg';
 import MongodbIcon from '../../assets/images/mongodb.svg';
-//import MongooseIcon from '../../assets/images/mongoose.svg';
+import MongooseIcon from '../../assets/images/mongoose.svg';
 import MysqlIcon from '../../assets/images/mysql.svg';
 import NodeIcon from '../../assets/images/node-js.svg';
 //import PostmanIcon from '../../assets/images/postman.svg';
@@ -21,6 +25,7 @@ import SassIcon from '../../assets/images/sass.svg';
 //import SequelizeIcon from '../../assets/images/sequelize.svg';
 import SqliteIcon from '../../assets/images/sqlite.svg';
 import TypescriptIcon from '../../assets/images/typescript.svg';
+
 import EyeIcon from '../../assets/images/eye.svg';
 
 const icons = {
@@ -28,11 +33,15 @@ const icons = {
   'CSS3': SassIcon,
   'JS/TS (ES6+)': TypescriptIcon,
   'React': ReactIcon,
+  'Next.js': NextJsIcon,
   //'Redux Toolkit': ReduxIcon,
   'Node.js': NodeIcon,
+  'Zustand': ZustandIcon,
+  'NX': NxIcon,
+  'Supabase': SupabaseIcon,
   'Express': ExpressIcon,
   'MongoDB': MongodbIcon,
-  //'Mongoose': MongooseIcon,
+  'Mongoose': MongooseIcon,
   'MySQL': MysqlIcon,
   //'Sequelize': SequelizeIcon,
   'Git/GitHub': GithubIcon,

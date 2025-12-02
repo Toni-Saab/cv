@@ -199,6 +199,9 @@
             { "name": "CSS3" },
             { "name": "JS/TS (ES6+)" },
             { "name": "React" },
+            { "name": "Next.js" },
+            { "name": "NX" },
+            { "name": "Zustand" },
             { "name": "REST API" },
             { "name": "Responsive Design" }
           ]
@@ -208,8 +211,10 @@
           "title": "Backend",
           "items": [
             { "name": "Node.js" },
+            { "name": "Supabase" },
             { "name": "Express" },
             { "name": "MongoDB" },
+            { "name": "Mongoose" },
             { "name": "MySQL" },
             { "name": "SQLite" }
           ]
@@ -236,6 +241,9 @@
             { "name": "CSS3" },
             { "name": "JS/TS (ES6+)" },
             { "name": "React" },
+            { "name": "Next.js" },
+            { "name": "NX" },
+            { "name": "Zustand" },
             { "name": "REST API" },
             { "name": "Responsive Design" }
           ]
@@ -245,8 +253,10 @@
           "title": "Backend",
           "items": [
             { "name": "Node.js" },
+            { "name": "Supabase" },
             { "name": "Express" },
             { "name": "MongoDB" },
+            { "name": "Mongoose" },
             { "name": "MySQL" },
             { "name": "SQLite" }
           ]
